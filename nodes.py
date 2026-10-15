@@ -1,5 +1,3 @@
-# nodes.py
-
 import asyncio
 import hmac
 import json
