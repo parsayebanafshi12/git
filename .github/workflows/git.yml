@@ -1,4 +1,4 @@
-name: Sync vodiwalker_panel to My Project
+name: Sync 
 
 on:
   workflow_dispatch:
@@ -60,6 +60,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "چیزی برای کامیت نیست."
           else
-            git commit -m "Railway Deploy"
+            git commit -m "upload files"
             git push
           fi
